@@ -18,7 +18,7 @@ Link para ver el proyecto: https://iandrestm.github.io/actividad-academica/
 - **HTML5** → estructura semántica del sitio.
 - **CSS3** → estilos personalizados, responsividad y diseño visual.
 - **Google Fonts** → tipografía moderna.
-- **JavaScript** → se puede integrar para validaciones, mostrar/ocultar contraseña o modo oscuro.
+- **JavaScript** → de momento solo lo use para crear el Dark Mode.
 
 ---
 
