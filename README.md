@@ -2,6 +2,8 @@
 
 Este proyecto corresponde a la actividad **"Diseño front-end que cumpla con los requerimientos del proyecto"**, donde se desarrolló la interfaz gráfica de una página web para **BarberíaElite**, enfocada en la experiencia del usuario al iniciar sesión y navegar en la plataforma.
 
+Link para ver el proyecto: https://iandrestm.github.io/actividad-academica/ 
+
 ---
 
 ## ✅ Requerimientos cumplidos
