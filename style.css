@@ -1,0 +1,207 @@
+/* ====== ESTILOS GENERALES ====== */
+body {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  background: #ffffff; /* Fondo claro */
+  color: #141414b3;    /* Texto gris oscuro */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Para ocupar toda la pantalla */
+}
+
+/* ====== HEADER ====== */
+.header {
+  display: flex;
+  justify-content: space-between; /* Distribuir elementos */
+  align-items: center;
+  padding: 16px 40px;
+  border-bottom: 1px solid rgba(20, 20, 20, 0.1); /* Línea inferior */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo .icon {
+  width: 24px;
+  height: 24px;
+  color: #141414;
+}
+
+.logo h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #141414;
+}
+
+/* ====== NAVEGACIÓN ====== */
+.nav {
+  display: flex;
+  gap: 24px;
+}
+
+.nav a {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #141414b3;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #141414;
+}
+
+/* ====== BOTONES HEADER ====== */
+.header-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Botón secundario */
+.btn-secondary {
+  background: rgba(20, 20, 20, 0.1);
+  padding: 10px 16px;
+  font-size: 14px;
+}
+
+.btn-secondary:hover {
+  background: rgba(20, 20, 20, 0.2);
+}
+
+/* Botón principal */
+.btn-primary {
+  background: #141414;
+  color: white;
+  padding: 10px 16px;
+  font-size: 14px;
+}
+
+.btn-primary:hover {
+  background: #000;
+}
+
+/* ====== MAIN ====== */
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Centrar horizontal */
+  align-items: center;     /* Centrar vertical */
+  padding: 24px;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Título del login */
+.login-box h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #141414;
+}
+
+.login-box p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #14141499;
+}
+
+/* ====== CAMPOS DEL FORMULARIO ====== */
+.input-group {
+  margin-top: 16px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  background: #f7f7f7;
+  font-size: 14px;
+}
+
+/* Efecto al hacer focus */
+input:focus {
+  outline: none;
+  border-color: #14141480;
+  box-shadow: 0 0 0 2px rgba(20, 20, 20, 0.2);
+}
+
+/* ====== OLVIDÉ CONTRASEÑA ====== */
+.forgot {
+  text-align: right;
+  margin-top: 8px;
+}
+
+.forgot a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #14141499;
+  transition: 0.3s;
+}
+
+.forgot a:hover {
+  color: #141414;
+}
+
+/* ====== BOTÓN DE ENTRAR ====== */
+.btn-submit {
+  width: 100%;
+  margin-top: 16px;
+  padding: 14px;
+  border-radius: 8px;
+  background: #141414;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn-submit:hover {
+  background: #000;
+}
+
+/* ====== TEXTO DE REGISTRO ====== */
+.register-text {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #14141499;
+}
+
+.register-text a {
+  color: #141414;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.register-text a:hover {
+  text-decoration: underline;
+}
+
+
+/* Darkmode */
+.dark-mode {
+  background: #777777;
+  color: white;
+}
+
+.dark-mode input {
+  background: #222;
+  color: white;
+  border: 1px solid #555;
+}
